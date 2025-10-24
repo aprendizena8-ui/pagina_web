@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Maquillaje</title>
+    <link
+      rel="stylesheet"
+      href="./ASSET/bootstrap-5.3.8-dist/css/bootstrap.min.css"
+    ><link/>
+    <script src="./ASSET/bootstrap-5.3.8-dist/js/bootstrap.bundle.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+
+</head>
+<body>
+ 
+
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Maquillaje</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#productos">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#imagen">Imágenes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Sección Inicio -->
+<section id="inicio" class="p-5 text-center bg-light">
+  <h2>Bienvenida a Mi Página de Maquillaje</h2>
+  <p>Descubre los mejores productos para resaltar tu belleza natural.</p>
+  <img src="./imagen/modelo.jpg" alt="Modelo de maquillaje" class="img-fluid rounded shadow mt-4" style="max-width: 80%;">
+
+</section>
+
+<!-- Sección Productos -->
+<section id="productos" class="p-5 bg-secondary text-white text-center">
+  <h2>Productos Destacados</h2>
+  <p>Explora nuestros productos más populares y recomendados para realzar tu belleza.</p>
+
+  <div class="container mt-4">
+    <div class="row g-4">
+
+      <!-- Producto 1 -->
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="./imagen/rubor.jpg" class="card-img-top" alt="Rubor">
+          <div class="card-body text-dark">
+            <h5 class="card-title">Rubor Luminoso Rare Sheglam</h5>
+            <p class="card-text">Rubores liquidos con acabado luminoso, ideales para un toque natural y radiante en tus mejillas.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="./imagen/paleta.jpg" class="card-img-top" alt="Paleta de sombras">
+          <div class="card-body text-dark">
+            <h5 class="card-title">Paleta de Sombras Neutra</h5>
+            <p class="card-text">Paleta versátil con tonos cálidos y fríos, perfecta para maquillajes de día o de noche.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="./imagen/pestañina.jpg" class="card-img-top" alt="Máscara de pestañas">
+          <div class="card-body text-dark">
+            <h5 class="card-title">Máscara Prosa</h5>
+            <p class="card-text">Máscara con silicón que da volumen y alarga las pestañas sin dejar grumos, ideal para una mirada intensa.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 4 -->
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="./imagen/iluminador.jpg" class="card-img-top" alt="Iluminador Sheglam">
+          <div class="card-body text-dark">
+            <h5 class="card-title">Iluminadores Sheglam</h5>
+            <p class="card-text">Iluminadores en barra con textura suave y tonos vibrantes, que aportan un brillo natural y duradero.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Sección Imágen -->
+<section id="imagen" class="p-5 text-center">
+  <h2>Galería de Maquillaje</h2>
+  <img src="./imagen/modelo1.jpg" alt="Iluminador" width="300">
+  <img src="./imagen/modelo2.jpg" alt="Paleta" width="300">
+  <img src="./imagen/modelo3.jpg" alt="Pestaña" width="300">
+  <img src="./imagen/modelo4.jpg" alt="Rubor" width="300">
+</section>
+
+<section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <p>Si tienes alguna pregunta o deseas más información, no dudes en escribirnos o iniciar sesión para recibir atención personalizada.</p>
+
+    <div class="login-box">
+      <h3>Iniciar Sesión</h3>
+      <form>
+        <div class="input-box">
+          <label for="usuario">Usuario</label>
+          <input type="text" id="usuario" placeholder="Ingresa tu usuario" required>
+        </div>
+        <div class="input-box">
+          <label for="contraseña">Contraseña</label>
+          <input type="password" id="contraseña" placeholder="Ingresa tu contraseña" required>
+        </div>
+        <button type="submit">Entrar</button>
+        <p class="registrate">¿No tienes cuenta? <a href="#">Regístrate aquí</a></p>
+      </form>
+    </div>
+  </section>
+
+
+<!-- Sección Contacto -->
+<section id="contacto" class="p-5 text-center text-white bg-dark">
+  <div class="contacto-container mx-auto">
+    <h2>Contáctanos</h2>
+    <p>Si tienes preguntas, escríbenos a:</p>
+    <p><strong>contacto@mi-maquillaje.com</strong></p>
+  </div>
+</section>
+
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
